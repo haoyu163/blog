@@ -1,22 +1,20 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
-  padding: 0;
-  background: #f9f9f9;
   color: #333;
 }
 
 header {
-  background: #222;
-  color: #fff;
-  padding: 1em 2em;
+  background-color: #222;
+  color: white;
+  padding: 1.5em;
   text-align: center;
 }
 
 nav a {
+  color: #ccc;
   margin: 0 1em;
-  color: #ddd;
   text-decoration: none;
 }
 
@@ -27,8 +25,9 @@ nav a:hover {
 main {
   max-width: 800px;
   margin: 2em auto;
-  padding: 0 1em;
+  padding: 1em;
   background: white;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -36,9 +35,14 @@ main {
   margin-bottom: 2em;
 }
 
+.post-preview a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
 footer {
   text-align: center;
   padding: 1em;
-  background: #eee;
+  background: #ddd;
   margin-top: 2em;
 }
